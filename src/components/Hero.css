@@ -1,0 +1,116 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  cursor: auto;
+}
+
+/* LAYER 1 COLOR */
+.bg-color {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: #f3d61be0;
+}
+
+/* LAYER 2 PHOTO (spotlight reveal) */
+.bg-photo {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background-image: url('https://i.postimg.cc/Pf1vLZ38/GSI-bg1.jpg');
+  background-size: cover;
+  background-position: center top;
+}
+
+/* NAVBAR */
+.navbar {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  right: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.navbar-logo {
+  align-items: flex-start;
+}
+.logo-img {
+  width: 290px;
+  height: 215px;
+}
+.navbar-nav {
+  display: flex;
+  gap: 35px;
+}
+
+.navbar :link,
+.navbar a {
+  color: #000;
+  text-transform: uppercase;
+  display: flex;
+  margin: -30px 0 0 0 ;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.navbar a:hover {
+  opacity: 0.45;
+}
+
+/* HERO CONTENT */
+.hero-content {
+  position: absolute;
+  z-index: 20;
+  bottom: 120px;
+  left: 48px;
+  right: 48px;
+  pointer-events: none;
+}
+.hero p {
+  color: #000;
+  width: 45%;
+  text-align: left;
+  margin: 0 0 0 50px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.hero-title {
+  font-weight: 450;
+  letter-spacing: -0.03em;
+  color: #000;
+  line-height: 0.9;
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 60px 50px;
+}
+
+/* blinking cursor bar after title */
+.blink-bar {
+  display: inline-block;
+  width: 5px;
+  height: 0.82em;
+  background: #1a1a0e;
+  margin-left: 8px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+
+@keyframes scrollDown {
+  0%   { transform: scaleY(0); transform-origin: top; }
+  50%  { transform: scaleY(1); transform-origin: top; }
+  51%  { transform: scaleY(1); transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}

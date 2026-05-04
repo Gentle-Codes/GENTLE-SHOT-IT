@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-container {
+    background-image: url(https://i.postimg.cc/Pf1vLZ38/GSI-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.navbar-logo {
+    align-items: flex-start;
+}
+.logo-img {
+    width: 250px;
+    height: 200px;
+}
+.navbar-nav {
+    display: flex;
+    gap: 35px;
+}
