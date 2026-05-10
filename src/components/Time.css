@@ -1,0 +1,41 @@
+.time {
+    background: #f3ea1a;
+    border-top: 2px solid #111;
+    position:sticky;
+    bottom: 0;
+    overflow: hidden;
+}
+.time-track {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    animation: scrollLeft 20s linear infinite;
+}
+
+@keyframes scrollLeft {
+    0% {transform: translate(-50%);}
+    100% {transform: translate(0);}
+}
+
+.time-text {
+    font-family: 'Playfair Display';
+    white-space: nowrap;
+    user-select: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    padding: 10px 50px;
+    text-transform: uppercase;
+}
+
+.time-pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 30px 0 30px 25px;
+}
+
+.time img {
+    width: 220px;
+    height: 250px;
+}

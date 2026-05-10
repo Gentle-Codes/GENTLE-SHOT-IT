@@ -1,0 +1,31 @@
+
+.pine {
+    background: #fff;
+    border-top: 1px solid #111;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+}
+.pine-track {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    animation: scrollRight 12s linear infinite ;
+}
+
+@keyframes scrollRight {
+    0% { transform: translate(-50%); }
+    100% { transform: translate(0); }
+}
+.pine-text {
+    font-family: 'Playfair Display';
+    white-space: nowrap;
+    user-select: none;
+    color: #000;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    padding: 10px 50px;
+}

@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .hero {
   position: relative;
   width: 100%;
@@ -11,7 +16,7 @@
   position: absolute;
   inset: 0;
   z-index: 1;
-  background-color: #f3d61be0;
+  background-color: #f3ea1a;
 }
 
 /* LAYER 2 PHOTO (spotlight reveal) */
