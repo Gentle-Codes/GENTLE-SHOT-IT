@@ -16,22 +16,22 @@ export default function Project () {
             
             <div className="project">
                 <figure>
-                    <img src="https://i.postimg.cc/9F7x34VT/Screenshot-2026-03-15-121427.png"
+                    <img src="https://i.postimg.cc/Y0C8zB39/photo-2026-05-11-00-29-36.jpg"
                     alt="project"
                     className="side-P"/>
-                    <figcaption>Editorial campaign</figcaption>
+                    <figcaption>Community shoots</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="https://i.postimg.cc/9F7x34VT/Screenshot-2026-03-15-121427.png"
+                    <img src="https://i.postimg.cc/4d5Bcxzt/photo-2026-05-11-00-29-22.jpg"
                     alt="project"
                     className="center-P"
                     />
-                    <figcaption>Fashion Shoots IN-Studio</figcaption>
+                    <figcaption>Brand IN-Studio shoots</figcaption>
                 </figure>
 
                 <figure>
-                <img src="https://i.postimg.cc/9F7x34VT/Screenshot-2026-03-15-121427.png"
+                <img src="https://i.postimg.cc/prLkJMZy/photo-2026-05-11-00-30-08.jpg"
                     alt="project"
                     className="side-P"
                     />

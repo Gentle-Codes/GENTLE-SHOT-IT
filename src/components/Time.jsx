@@ -14,19 +14,19 @@ export default function Time () {
             </div>
 
             <div className="time-pic">
-                <img src="https://i.postimg.cc/9F7x34VT/Screenshot-2026-03-15-121427.png"
+                <img src="https://i.postimg.cc/WbCLz5Ny/photo-2026-05-11-00-53-53.jpg"
                 alt="past work" />
 
-                <img src="https://i.postimg.cc/9F7x34VT/Screenshot-2026-03-15-121427.png"
+                <img src="https://i.postimg.cc/2yXp4w4Y/photo-2026-05-11-00-53-23.jpg"
                 alt="past work" />
 
-                <img src="https://i.postimg.cc/9F7x34VT/Screenshot-2026-03-15-121427.png"
+                <img src="https://i.postimg.cc/qMSVq1JY/photo-2026-05-11-00-53-30.jpg"
                 alt="past work" />
 
-                <img src="https://i.postimg.cc/9F7x34VT/Screenshot-2026-03-15-121427.png"
+                <img src="https://i.postimg.cc/RVy5hgSy/photo-2026-05-11-00-53-38.jpg"
                 alt="past work" />
 
-                <img src="https://i.postimg.cc/9F7x34VT/Screenshot-2026-03-15-121427.png"
+                <img src="https://i.postimg.cc/QxwGCf8y/photo-2026-05-11-00-53-46.jpg"
                 alt="past work" />
             </div>
         </div>

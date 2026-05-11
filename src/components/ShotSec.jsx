@@ -6,7 +6,7 @@ export default function ShotSec () {
         <div className="shot">
             <h1>Brand Editorial Shoots</h1>
 
-            <img src="https://i.postimg.cc/rsvQ0TGz/Screenshot-2026-03-15-121238.png" 
+            <img src="https://i.postimg.cc/RVy5hgSy/photo-2026-05-11-00-53-38.jpg" 
             alt="Editorial PIC"
             />
 
@@ -20,7 +20,7 @@ export default function ShotSec () {
         <div className="shot">
             <h1>Art Direction &amp; styling</h1>
 
-            <img src="https://i.postimg.cc/0N8ZJcSz/Screenshot-2026-03-15-121458.png"
+            <img src="https://i.postimg.cc/Qtb07dpc/photo-2026-05-11-00-29-44.jpg"
             alt="Art PIC"
             />
 

@@ -5,27 +5,27 @@ export default function Why () {
     const items = [
        {
             title: "EDITORIAL STYLE ROOTED IN STORYTELLING",
-            image: "https://i.postimg.cc/26kJrCTz/Screenshot-2026-03-15-121358.png"
+            image: "https://i.postimg.cc/Y0C8zB39/photo-2026-05-11-00-29-36.jpg"
         },
         {
             title: "Specialized in wellness, beauty & lifestyle",
-            image: "https://i.postimg.cc/9F7x34VT/Screenshot-2026-03-15-121427.png"
-        },
-        {
-            title: "In-studio or natural light location options",
-            image: "https://i.postimg.cc/Wzch3XxF/me.jpg"
+            image: "https://i.postimg.cc/j2Sv4YX2/photo-2026-05-11-00-29-54.jpg"
         },
         {
             title: "Seamless creative direction & styling",
-            image: "https://i.postimg.cc/V5QWsR1w/framer01.avif"
+            image: "https://i.postimg.cc/Qtb07dpc/photo-2026-05-11-00-29-44.jpg"
+        },
+        {
+            title: "In-studio or natural light location options",
+            image: "https://i.postimg.cc/prLkJMZy/photo-2026-05-11-00-30-08.jpg"
         },
         {
             title: "Designed for emotional brand connection",
-            image: "https://i.postimg.cc/9F7x34VT/Screenshot-2026-03-15-121427.png"
+            image: "https://i.postimg.cc/4d5Bcxzt/photo-2026-05-11-00-29-22.jpg"
         },
         {
-            title: "Trusted by thoughtful, female-founded brands",
-            image: "https://i.postimg.cc/0N8ZJcSz/Screenshot-2026-03-15-121458.png"
+            title: "Trusted by thoughtful, female brands",
+            image: "https://i.postimg.cc/KzNJT8nB/photo-2026-05-11-00-28-50.jpg"
         },
     ];
     const [activeIndex, setActiveIndex] = useState (0);
